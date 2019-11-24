@@ -9,7 +9,7 @@ class Header extends React.Component {
             <HeaderComponent className="header-container">
                 <div className="header-top">
                     <Logo src={logo} alt="logo" />
-                    <NavLink to="/signin" className="sign-in-btn">
+                    <NavLink to="/login" className="sign-in-btn">
                         Sign In
                     </NavLink>
                 </div>
